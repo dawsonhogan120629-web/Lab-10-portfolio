@@ -1,0 +1,209 @@
+/* Main page styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f3f5f8;
+    color: #202a36;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.site-header {
+    background: #14283f;
+    color: #ffffff;
+}
+
+.header-content {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 42px 24px 32px;
+}
+
+.eyebrow {
+    margin: 0 0 8px;
+    color: #58d6c4;
+    font-size: 0.78rem;
+    font-weight: bold;
+    letter-spacing: 0.14em;
+}
+
+h1,
+h2,
+p {
+    margin-top: 0;
+}
+
+h1 {
+    margin-bottom: 4px;
+    font-size: clamp(2.2rem, 5vw, 3.5rem);
+    line-height: 1.15;
+}
+
+.tagline {
+    margin-bottom: 0;
+    color: #d8e4f0;
+    font-size: 1.1rem;
+}
+
+.site-nav {
+    background: #203c59;
+}
+
+.site-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 24px;
+    list-style: none;
+}
+
+.site-nav a {
+    display: block;
+    padding: 14px 16px;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a:focus,
+.site-nav a[aria-current="page"] {
+    background: #58d6c4;
+    color: #14283f;
+}
+
+.page-layout {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 22px;
+    max-width: 1080px;
+    margin: 32px auto;
+    padding: 0 24px;
+}
+
+.panel {
+    min-width: 0;
+    padding: 26px;
+    border: 1px solid #e0e6ed;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0 5px 18px rgba(20, 40, 63, 0.06);
+}
+
+.panel h2 {
+    margin-bottom: 12px;
+    color: #173b5e;
+    font-size: 1.45rem;
+}
+
+.intro {
+    display: flex;
+    flex: 1 1 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 28px;
+}
+
+.intro-text {
+    flex: 1 1 60%;
+}
+
+.profile-art {
+    display: block;
+    flex: 0 1 280px;
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+}
+
+.goals,
+.current-work {
+    flex: 1 1 300px;
+}
+
+.next-steps {
+    flex: 1 1 100%;
+    border-left: 5px solid #58d6c4;
+}
+
+.text-link {
+    color: #155b88;
+    font-weight: bold;
+    text-underline-offset: 3px;
+}
+
+.text-link:hover,
+.text-link:focus {
+    color: #0b765f;
+}
+
+.site-footer {
+    padding: 24px;
+    background: #14283f;
+    color: #d8e4f0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.site-footer p {
+    margin: 4px 0;
+}
+
+@media (max-width: 650px) {
+    .header-content {
+        padding: 32px 20px 24px;
+    }
+
+    .site-nav ul {
+        gap: 0;
+        padding: 0 12px;
+    }
+
+    .site-nav a {
+        padding: 12px 10px;
+    }
+
+    .page-layout {
+        gap: 16px;
+        margin: 20px auto;
+        padding: 0 16px;
+    }
+
+    .panel {
+        padding: 20px;
+    }
+
+    .intro {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .profile-art {
+        align-self: center;
+        max-width: 210px;
+    }
+}
+
+/* Donation form */
+.donate-panel { flex: 1 1 100%; max-width: 720px; }
+.donate-form { display: flex; flex-direction: column; gap: 8px; }
+.donate-form label { font-weight: bold; }
+.donate-form input:not([type="radio"]):not([type="checkbox"]),
+.donate-form select { width: 100%; padding: 10px; border: 1px solid #9aa9b7; border-radius: 5px; font: inherit; margin-bottom: 12px; }
+.donate-form fieldset { border: 1px solid #9aa9b7; border-radius: 5px; margin: 0 0 12px; }
+.donate-form legend { font-weight: bold; }
+.radio-options { display: flex; flex-wrap: wrap; gap: 20px; }
+.radio-options label { font-weight: normal; }
+.terms-row { display: flex; align-items: center; gap: 10px; margin: 8px 0; }
+.donate-form button { padding: 12px 18px; background: #203c59; color: #fff; border: 0; border-radius: 5px; font: inherit; font-weight: bold; cursor: pointer; }
+.donate-form button:hover, .donate-form button:focus { background: #155b88; }
+
+/* Lab 10 interactive feature */
+#interest-toggle { padding: 10px 16px; background: #203c59; color: white; border: 0; border-radius: 5px; font: inherit; cursor: pointer; }
+#interest-toggle:hover, #interest-toggle:focus-visible { background: #155b88; }

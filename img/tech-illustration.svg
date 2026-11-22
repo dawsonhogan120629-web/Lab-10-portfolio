@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 250" role="img" aria-labelledby="title desc">
+  <title id="title">Laptop and code illustration</title>
+  <desc id="desc">A simple laptop with colorful code lines on the screen.</desc>
+  <rect x="50" y="28" width="220" height="155" rx="12" fill="#dce8f4"/>
+  <rect x="62" y="40" width="196" height="130" rx="5" fill="#14283f"/>
+  <circle cx="75" cy="52" r="3" fill="#ff8b7b"/>
+  <circle cx="86" cy="52" r="3" fill="#ffd166"/>
+  <circle cx="97" cy="52" r="3" fill="#58d6c4"/>
+  <path d="M91 83 L78 95 L91 107" fill="none" stroke="#58d6c4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M112 108 L126 80" fill="none" stroke="#ffd166" stroke-width="6" stroke-linecap="round"/>
+  <path d="M145 83 L158 95 L145 107" fill="none" stroke="#ff8b7b" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="83" y="126" width="78" height="5" rx="2.5" fill="#dce8f4"/>
+  <rect x="83" y="140" width="112" height="5" rx="2.5" fill="#58d6c4"/>
+  <path d="M37 185 H283 L263 207 H57 Z" fill="#b6c8d9"/>
+  <path d="M57 207 H263 L248 218 H72 Z" fill="#8da7bd"/>
+  <rect x="130" y="190" width="60" height="4" rx="2" fill="#718da5"/>
+  <circle cx="260" cy="55" r="18" fill="#58d6c4" opacity="0.75"/>
+  <circle cx="49" cy="146" r="11" fill="#ffd166" opacity="0.9"/>
+</svg>
